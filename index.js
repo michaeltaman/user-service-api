@@ -14,7 +14,11 @@ app.get('/', (req, res) => {
     },
     {
       name: 'Jake',
-      email: 'jake@hotmail.com',
+      email: 'jake@yahoo.com',
+    },
+    {
+      name: 'Maria',
+      email: 'maria@yahoo.com.uk',
     }
   ]);
 });
