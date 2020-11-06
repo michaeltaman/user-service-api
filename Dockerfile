@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /
+WORKDIR /app
 ADD package*.json .
 ADD . .
 RUN npm install
