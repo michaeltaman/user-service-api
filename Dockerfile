@@ -1,5 +1,6 @@
 FROM node:latest
-WORKDIR /app
+WORKDIR /
+ADD package*.json .
 ADD . .
 RUN npm install
 CMD node index.js
